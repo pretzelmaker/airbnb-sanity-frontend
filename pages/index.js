@@ -1,6 +1,6 @@
 import { sanityClient, urlFor } from "../sanity"
 import Link from "next/link"
-import { isMultiple } from "../utils"
+import { isMultiple, formatPrice } from "../utils"
 import DashboardMap from "../components/DashboardMap"
 
 const Home = ({ properties }) => {
@@ -22,7 +22,7 @@ const Home = ({ properties }) => {
                     </p>
                     <h3>{property.title}</h3>
                     <h3>
-                      <b>£{property.pricePerNight}/per Night</b>
+                      <b>{formatPrice(property.pricePerNight)}/per Night</b>
                     </h3>
                   </div>
                 </Link>
