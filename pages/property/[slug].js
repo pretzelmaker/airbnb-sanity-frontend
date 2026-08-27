@@ -1,5 +1,5 @@
 import { sanityClient } from "../../sanity"
-import { isMultiple } from "../../utils"
+import { isMultiple, formatPrice } from "../../utils"
 import Image from "../../components/Image"
 import Review from "../../components/Review"
 import Map from "../../components/Map"
@@ -72,7 +72,7 @@ const Property = ({
           </p>
         </div>
         <div className="price-box">
-          <h2>£{pricePerNight}</h2>
+          <h2>{formatPrice(pricePerNight)}</h2>
           <h4>
             {reviewAmount} review{isMultiple(reviewAmount)}
           </h4>
