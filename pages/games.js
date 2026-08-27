@@ -9,6 +9,14 @@ const Games = () => {
       path: "/games/pretzel-match",
       difficulty: "Easy",
       players: "1 Player"
+    },
+    {
+      id: 2,
+      name: "Pretzel Quest",
+      description: "Navigate through obstacles to collect pretzels by Victor Pretzel",
+      path: "/games/pretzel-quest",
+      difficulty: "Medium",
+      players: "1 Player"
     }
   ]
 
