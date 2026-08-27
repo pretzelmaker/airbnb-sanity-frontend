@@ -18,6 +18,14 @@ const Home = ({ properties }) => {
                 </a>
               </Link>
             </div>
+            <div className="game-banner">
+              <Link href="/victor-pretzel-memory">
+                <a className="game-banner-link">
+                  <h2>🧠 Try Victor's Pretzel Memory Match! 🧠</h2>
+                  <p>Test your memory with pretzel-themed cards!</p>
+                </a>
+              </Link>
+            </div>
             <h1>Places to stay near you</h1>
             <div className="feed">
               {properties.map((property) => (
