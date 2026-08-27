@@ -105,6 +105,32 @@ body {
   border-radius: 20px;
 }
 
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .feed-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 .image {
   width: 50%;
 }
