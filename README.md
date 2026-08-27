@@ -81,6 +81,13 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+---
+
+## 🚗 Fun Fact
+Why don't Teslas ever win at poker? Because they always get charged for bluffing! ⚡
+
+---
+
 It worked
 It worked twice
 It worked three times
