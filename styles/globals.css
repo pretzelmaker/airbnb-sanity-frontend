@@ -14,11 +14,35 @@ body {
   padding: 30px;
 }
 
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   width: 130px;
   height: 40px;
   background-image: url('../images/airbnb-logo.png');
   background-size: 130px;
+  cursor: pointer;
+}
+
+.game-link {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, rgb(255,56,92) 20%, rgb(189,30,89));
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -123,4 +147,38 @@ body {
 
 .line {
   border: 1px solid grey;
+}
+
+.game-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-banner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.game-banner-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.game-banner-link h2 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.game-banner-link p {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.95;
 }
