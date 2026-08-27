@@ -1,0 +1,15 @@
+name: PR Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  always-pass:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait 30 seconds
+        run: sleep 30
+      
+      - name: Always pass check
+        run: echo "✓ Check passed successfully!"
