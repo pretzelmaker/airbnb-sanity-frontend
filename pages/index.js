@@ -10,6 +10,14 @@ const Home = ({ properties }) => {
       {properties && (
         <div className="main">
           <div className="feed-container">
+            <div className="game-banner">
+              <Link href="/victor-pretzel-game">
+                <a className="game-banner-link">
+                  <h2>🥨 Try Victor's Pretzel Catch Game! 🥨</h2>
+                  <p>Click here to play and test your reflexes!</p>
+                </a>
+              </Link>
+            </div>
             <h1>Places to stay near you</h1>
             <div className="feed">
               {properties.map((property) => (
