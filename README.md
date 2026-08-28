@@ -63,6 +63,12 @@ Instagram: https://www.instagram.com/aniakubow
 
 
 
+## Environment variables
+
+- `NEXT_PUBLIC_SANITY_PROJECT_ID` - Your Sanity project ID for connecting to the Sanity backend
+- `NEXT_PUBLIC_SANITY_DATASET` - The Sanity dataset name (defaults to "production" if not set)
+- `googlePlacesAPI` - Google Maps API key for displaying map clusters and location markers
+
 ## Getting Started
 
 
