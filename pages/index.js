@@ -11,6 +11,7 @@ const Home = ({ properties }) => {
         <div className="main">
           <div className="feed-container">
             <h1>Places to stay near you</h1>
+            <p className="dad-joke">🏠 Why did the house go to the doctor? Because it had window panes! 🤣</p>
             <div className="feed">
               {properties.map((property) => (
                 <Link href={`property/${property.slug.current}`}>
