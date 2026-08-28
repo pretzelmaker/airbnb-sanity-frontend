@@ -1,0 +1,15 @@
+--- Airbnb Sanity Frontend Puns ---
+
+1. I'm not good at CSS, but I'm styling myself as an expert.
+
+2. Why did the JavaScript variable go to the beach? To get more scope!
+
+3. I told my code it needed to refactor. It said, "I'm already pretty class-y."
+
+4. The best part about working with Sanity? It's completely structured... unlike my debugging process.
+
+5. I tried to make a joke about GROQ queries, but I couldn't construct one.
+
+6. Why don't bugs ever win at poker? They always get caught in production.
+
+7. My code works, but I don't know why. That's job security right there!
