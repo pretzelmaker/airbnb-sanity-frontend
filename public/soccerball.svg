@@ -1,0 +1,60 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background sphere -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Radial gradient for 3D effect -->
+  <defs>
+    <radialGradient id="sphereGradient" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Apply gradient -->
+  <circle cx="100" cy="100" r="95" fill="url(#sphereGradient)"/>
+  
+  <!-- Pentagons (black) -->
+  <!-- Top pentagon -->
+  <polygon points="100,40 115,55 108,75 92,75 85,55" fill="#000"/>
+  
+  <!-- Upper left pentagon -->
+  <polygon points="65,58 72,72 58,83 45,75 52,61" fill="#000"/>
+  
+  <!-- Upper right pentagon -->
+  <polygon points="135,58 148,61 155,75 142,83 128,72" fill="#000"/>
+  
+  <!-- Lower left pentagon -->
+  <polygon points="52,125 45,125 52,139 72,128 65,114" fill="#000"/>
+  
+  <!-- Lower right pentagon -->
+  <polygon points="148,125 155,125 148,139 128,128 135,114" fill="#000"/>
+  
+  <!-- Bottom pentagon -->
+  <polygon points="100,160 115,145 108,125 92,125 85,145" fill="#000"/>
+  
+  <!-- Hexagons (white with black outlines) surrounding pentagons -->
+  <!-- Upper middle hexagon -->
+  <polygon points="100,55 115,62 115,78 100,85 85,78 85,62" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Upper left hexagon -->
+  <polygon points="72,72 85,65 100,70 100,86 85,91 72,84" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Upper right hexagon -->
+  <polygon points="128,72 128,84 115,91 100,86 100,70 115,65" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Middle left hexagon -->
+  <polygon points="52,100 65,93 80,100 80,120 65,127 52,120" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Middle right hexagon -->
+  <polygon points="148,100 120,120 120,100 135,93" fill="white" stroke="#000" stroke-width="1"/>
+  <polygon points="148,100 135,107 120,100 120,120 135,127 148,120" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Lower left hexagon -->
+  <polygon points="72,128 85,121 100,126 100,146 85,151 72,144" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Lower right hexagon -->
+  <polygon points="128,128 128,144 115,151 100,146 100,126 115,121" fill="white" stroke="#000" stroke-width="1"/>
+  
+  <!-- Lower middle hexagon -->
+  <polygon points="100,145 115,138 115,122 100,115 85,122 85,138" fill="white" stroke="#000" stroke-width="1"/>
+</svg>
