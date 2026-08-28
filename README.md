@@ -81,6 +81,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Local Development
+
+Before running the app, set the following environment variables (e.g. in a `.env.local` file):
+
+| Variable | Description |
+| -------- | ----------- |
+| `NEXT_PUBLIC_SANITY_PROJECT_ID` | Your Sanity project ID (required) |
+| `NEXT_PUBLIC_SANITY_DATASET` | Sanity dataset name (defaults to `production`) |
+| `googlePlacesAPI` | Google Maps / Places API key for the map components |
+
 It worked
 It worked twice
 It worked three times
