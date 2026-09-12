@@ -65,6 +65,20 @@ Instagram: https://www.instagram.com/aniakubow
 
 ## Getting Started
 
+### Environment Variables
+
+Before running the application, you need to set up your environment variables. Copy `.env.example` to `.env.local` and fill in the required values:
+
+```bash
+cp .env.example .env.local
+```
+
+See `.env.example` for the required configuration:
+- **NEXT_PUBLIC_SANITY_PROJECT_ID**: Your Sanity project ID from https://www.sanity.io/manage
+- **NEXT_PUBLIC_SANITY_DATASET**: Your Sanity dataset name (typically "production")
+- **googlePlacesAPI**: Your Google Maps API key from https://developers.google.com/maps
+
+### Installation and Running
 
 First, install the packages:
 ```bash
